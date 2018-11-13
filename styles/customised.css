@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+    color: black;  
+    font-family: 'Raleway', sans-serif;
+}
+.page_section {
+
+    padding-top: 100px;
+    padding-bottom: 38px;
+
+}
+
+.yellow {
+    background: #1a1a1a;
+    color : white;
+    /* background : rgb(255, 182, 6); */
+}
+
+.text_white{
+    color: rgb(255, 255, 255)
+}
+
+.half{
+    width: 50%;
+    border-right: 2px black solid;
+}
+
+.half_right{
+    width: 50%;
+    
+}
+
+.header {
+    position:absolute;
+    height: 49px;
+    width: 70vw;
+    background: transparent;    
+    border-radius: 10px;
+}
+
+.view-more {
+    margin-left: 67vw;
+    font-size: 20%;
+}
+
+#courseName{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: black;
+}
+
+#collegeName {
+    font-size: 40%;
+}
+p{
+    font-size:18px;
+    color: black;
+}
+
+.course-title {
+    padding-bottom: 20px;
+    height: 100%;
+    width: 100%;
+    /* background: #3641411a; */
+    background : url(../images/sscbs.JPG);
+    max-width: inherit;
+    max-height: inherit;
+}
+
+#college_logo img {
+    margin:35px;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    z-index : "1";
+}
+
+.text_white li {
+    color: white;
+}
