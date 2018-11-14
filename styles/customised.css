@@ -50,11 +50,14 @@
     top: 50%;
     left: 5%;
     color: black;
+    /* background : grey; */
 }
 
 #collegeName {
     font-size: 40%;
 }
+
+
 p{
     font-size:18px;
     color: black;
@@ -65,9 +68,10 @@ p{
     height: 100%;
     width: 100%;
     /* background: #3641411a; */
-    background : url(../images/sscbs.JPG);
-    max-width: inherit;
-    max-height: inherit;
+    background-image : url(../images/sscbs.JPG);
+    background-size: 100% 100%;
+    transform: translate(0%, -12.5984%) translate3d(0px, 0px, 0px);
+    background-repeat:no-repeat;
 }
 
 #college_logo img {
@@ -80,4 +84,25 @@ p{
 
 .text_white li {
     color: white;
+}
+
+.header_content {
+    
+    background: white;
+}
+
+.bg-strip {
+    background: #969684;
+    opacity: 0.85;
+    /* left: 0px; */
+    padding : 10px;
+}
+
+.button {background: #ffb606;
+
+    width: 32%;
+    
+    height: 10%;
+    
+    color: white
 }

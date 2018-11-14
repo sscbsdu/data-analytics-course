@@ -51,7 +51,8 @@
 	}
 	.header_content
 	{
-		width: calc(100% - 219px);
+		width: 0%;
+		/* width: calc(100% - 219px); */
 	}
 	.main_nav_container
 	{
@@ -69,6 +70,10 @@
 	{
 		width: 20px;
 		height: 20px;
+	}
+
+	.bg-strip {
+
 	}
 }
 
@@ -93,6 +98,10 @@
 	.main_nav_container
 	{
 		padding-right: 53px;
+	}
+
+	.bg-strip {
+		
 	}
 }
 
@@ -143,6 +152,7 @@
 	.hamburger_container
 	{
 		display: block;
+		background: white;	
 	}
 	.elements_accordions
 	{
@@ -175,6 +185,10 @@
 	.footer_col:last-child
 	{
 		margin-bottom: 0px;
+	}
+
+	.bg-strip {
+
 	}
 }
 
@@ -224,6 +238,9 @@
 	.newsletter_submit_btn
 	{
 		margin-top: 15px;
+	}
+	.bg-strip {
+		
 	}
 }
 
@@ -377,6 +394,14 @@
 	{
 		font-size: 13px;
 	}
+
+	.header_content{
+		/* width: unset; */
+	}
+
+	.bg-strip {
+		left: 10%;	
+	}
 }
 
 /************
@@ -411,6 +436,10 @@
 	#courseName {
 		font:181%;
 	}
+	.bg-strip {
+		left: 4%;
+		font-size: 23px;
+	}
 }
 
 /************
@@ -422,4 +451,9 @@
 	#courseName {
 		font:181%;
 	}
+
+	.bg-strip {
+		font-size: 19px;
+	}
+
 }
