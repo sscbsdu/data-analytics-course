@@ -110,3 +110,10 @@ p{
 .payment-det ol li {
     line-height : 30px;
 }
+.footer_content {
+
+    padding-top: 0px;
+}
+.top-padding-none {
+    padding-top: 0px;
+}
