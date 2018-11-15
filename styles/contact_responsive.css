@@ -84,11 +84,11 @@
 	}
 	.header_content
 	{
-		width: 100%;
+		/*! width: 100%; */
 	}
 	.header_side
 	{
-		display: none !important;
+/* 		display: none !important; */
 	}
 	.main_nav_container
 	{
@@ -164,6 +164,17 @@
 	{
 		margin-bottom: 0px;
 	}
+	.header_side
+	{
+		display: none !important;
+	}
+	.header_content{
+		width: 0px;
+	}
+	.hamburger_container{
+		background: white;
+		border-radius: 7px;
+	}
 }
 
 /************
@@ -172,7 +183,9 @@
 
 @media only screen and (max-width: 959px)
 {
-	
+	.header_side{
+
+	}
 }
 
 /************

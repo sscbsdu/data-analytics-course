@@ -84,11 +84,11 @@
 	}
 	.header_content
 	{
-		width: 100%;
+		width: %;
 	}
 	.header_side
 	{
-		display: none !important;
+/* 		display: none !important; */
 	}
 	.main_nav_container
 	{
@@ -152,13 +152,27 @@
 	{
 		display: none;
 	}
+	.header_side
+	{
+		display: none !important;
+	}
+	.header_content{
+		
+    width: 0px;
+	}
 	.logo_container
 	{
 		padding-left: 30px;
 	}
+	.header_side{
+	 display: none;
+	}
 	.hamburger_container
 	{
 		display: block;
+		background: white;
+		border-radius: 10px;
+		
 	}
 	.hero_slide_content h1
 	{
