@@ -117,3 +117,6 @@ p{
 .top-padding-none {
     padding-top: 0px;
 }
+.tabcontent p{
+    line-height: 1.5;
+}
